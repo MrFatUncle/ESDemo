@@ -1,1 +1,8 @@
+server:
+  port: 9999
 
+spring:
+  data:
+    elasticsearch:
+      cluster-nodes: 192.168.5.155:9300
+      cluster-name: my-es
